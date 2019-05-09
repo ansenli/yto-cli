@@ -25,7 +25,7 @@ log();
 
 program.usage('<command>')
 program 
-  .command(chalk.green('init')) 
+  .command('init') 
   .description('初始化创建一个新项目') 
   .alias('i') 
   .action(() => { 
